@@ -20,7 +20,7 @@
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Starter Kit
+title:                 인생은 강아지처럼
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -29,15 +29,21 @@ description:           >
   with a focus on personal sites that are meant to impress.
 
 # A shorter description for the sidebar.
-tagline:               Welcome to Sehoon's Tech Blog :)
+tagline:               "세훈이의 성장 블로그"
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              ["#Backend", "#AI", "#Junior"]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
 logo:                  /assets/img/logo.png
+
+
+## Favicon 설정 하는 부분.
+favicon: /assets/img/favicon.png
+apple_touch_icon: /assets/img/logo.png
+
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -49,12 +55,14 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
-    url:               /docs/
-  - title:             About
-    url:               /about/
+  - title:             우테코-프리코스
+    url:               /wootechco/
+  # - title:             Example
+  #   url:               /example/
+  # - title:             Documentation
+  #   url:               /docs/
+  # - title:             About
+  #   url:               /about/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -92,7 +100,7 @@ remote_theme: hydecorp/hydejack@v9
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
+accent_image:          /assets/img/side-bar.avif
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
