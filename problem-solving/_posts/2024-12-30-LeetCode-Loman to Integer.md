@@ -2,7 +2,7 @@
 layout: post
 title:  LeetCode - 로마자를 정수로 변환 !
 image :
-  path : /assets/img/problem-solving/블로그포스터-PS.png
+  path : /assets/img/problem-solving/블로그포스터v2.png
 description: 로마자를 숫자로 변환 하는 문제
 sitemap: false
 ---
@@ -12,15 +12,16 @@ sitemap: false
 ---
 
 ### 문제 설명
-|Symbol|Value|
-|------|---|
-|I|1|
-|V|5|
-|X|10|
-|L|50|
-|C|100|
-|D|500|
-|M|1000|
+| Symbol | Value |
+|--------|-------|
+| I      | 1     |
+| V      | 5     |
+| X      | 10    |
+| L      | 50    |
+| C      | 100   |
+| D      | 500   |
+| M      | 1000  |
+
 
 로마자와 숫자의 관계는 위 테이블과 같다.<br>
 예시로 <span style="background-color:#F5F5F5"> 2 </span>는 <span style="background-color:#F5F5F5"> II </span>, <span style="background-color:#F5F5F5"> 27 </span>은 <span style="background-color:#F5F5F5"> XXVII </span>이다.
