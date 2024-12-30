@@ -12,15 +12,16 @@ sitemap: false
 ---
 
 ### 문제 설명
+
 | Symbol | Value |
-|--------|-------|
-| I      | 1     |
-| V      | 5     |
-| X      | 10    |
-| L      | 50    |
-| C      | 100   |
-| D      | 500   |
-| M      | 1000  |
+| --- | --- |
+| I | 1 |
+| V | 5 |
+| X | 10 |
+| L | 50 |
+| C | 100 |
+| D | 500 |
+| M | 1000 |
 
 
 로마자와 숫자의 관계는 위 테이블과 같다.<br>
@@ -31,6 +32,7 @@ sitemap: false
 ---
 
 ### 문제 조건
+
 Value가 **5이상**의 Symbol에서 <span style="background-color:#fff5b1">**감산표기법**</span>을 적용한다.
 
 감산 표기법이란, 작은 숫자가 큰 숫자 앞에 위치할 경우, 작은 숫자를 큰 숫자에서 빼는 방식으로 숫자를 표현하는 방법입니다.
@@ -41,6 +43,7 @@ Value가 **5이상**의 Symbol에서 <span style="background-color:#fff5b1">**�
 ---
 
 ### 문제 해결
+
 나는 해당 문제를 for문을 사용하여 로마자를 추출하고, 해당 문자와 상응하는 Value를 total이라는 변수에 더하는 방법을 생각했다. 
 
 **Java Code**
@@ -96,7 +99,8 @@ class Solution {
 
 ---
 ### 결과
-<img src = "./assets/img/problem-solving/loman-to-integer/result.png"> 
+
+<img src = "/assets/img/problem-solving/loman-to-integer/result.png"> 
 
 ---
 ### 회고
