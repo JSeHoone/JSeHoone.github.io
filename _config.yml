@@ -57,8 +57,8 @@ author:
 menu:
   - title:             우테코-프리코스
     url:               /wootechco/
-  # - title:             Example
-  #   url:               /example/
+  - title:             Problem Solving
+    url:               /problem-solving/
   # - title:             Documentation
   #   url:               /docs/
   # - title:             About
